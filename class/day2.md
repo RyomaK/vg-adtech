@@ -1,7 +1,7 @@
-[aws資料](https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2017-auto-scaling)
-[aws資料-2](https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2016-elastic-load-balancing)
-[システム周り](./sunrise2017_infra.pdf)
-[アドテクサービスプラクティス](https://gist.github.com/katzchang/b97293ede9391822b21c42f7830b543a)
+[aws資料](https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2017-auto-scaling)   
+[aws資料-2](https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2016-elastic-load-balancing)   
+[システム周り](./sunrise2017_infra.pdf)  
+[アドテクサービスプラクティス](https://gist.github.com/katzchang/b97293ede9391822b21c42f7830b543a)  
 ## Balancing 
 ### ELB(ALB+CLB) 
 AWSクラウド上のロードバランシングサービス
@@ -22,11 +22,22 @@ Availability Zoneの略で同一リージョン内の独立したロケーショ
 ### DSP
 広告主の効果の最大化
 
-##今日から使えるアドテク
+## 今日から使えるアドテク
+
+[アドテクサービスプラクティス](https://gist.github.com/katzchang/b97293ede9391822b21c42f7830b543a)
 ### 仮実装から始める
 - 固定値
 - 設定のインポート
 - RDBの設定をエクスポート
 - 入力フォーム
 - 自動的な判断
+
+### 計測する
+[LT資料](https://speakerdeck.com/katzchang/gao-surupututodi-reitensinawebsabisuniokerupahuomansudui-ce-falsexian-shi)
+
+### すばやくデプロイする
+あらゆる繰り返しは省く
+
+### YAGNI
+本当に必要かどうか分からないようなものをあれこれ考えすぎて設計・実装したりするのはやめたほうがいい
 
