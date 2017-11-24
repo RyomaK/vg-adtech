@@ -29,4 +29,16 @@ ___メディア___
 
 ## セカンドプライズ
 - 一番高い値付けした人は勝者とする．勝者が支払わなければいけないのは２番目に高い値段のプラス１円
- 
+
+
+## rsa設定
+
+```.ssh/config```
+  Host sunrise
+  User          ec2-user
+  HostName      52.198.156.217
+  Port          22
+  IdentityFile  ~/.ssh/id_rsa_sunrise2017_group
+``` 
+- identityFile にrsaを貼り付け
+- ssh (host name)
